@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Products — Jagannath Bastralaya | Specialist in Uniforms</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/site.js"></script>
+  <link rel="icon" href="assets/logo.png">
+  <style>
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .product-card {
+      border-radius: 18px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    .product-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .product-content {
+      padding: 18px;
+    }
+    .product-content h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.3rem;
+      color: var(--brand-red);
+      margin-bottom: 6px;
+    }
+    .product-content p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <div class="logo-box"><img src="assets/logo.png" alt="logo"></div>
+      <div class="brand-title">
+        <div class="brand-name">Jagannath Bastralaya</div>
+        <div class="brand-sub">Specialist in Uniforms</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Our Products</h2>
+      <p class="lead">Explore our premium range of uniforms, garments, and accessories — blending tradition, comfort, and quality craftsmanship since 1957.</p>
+
+      <div class="product-grid">
+
+        <div class="product-card">
+          <img src="assets/school.jpg" alt="School Uniforms">
+          <div class="product-content">
+            <h3>School Uniforms</h3>
+            <p>Shirts, trousers, skirts, ties, PT T-shirts, track pants, lab coats, shoes and more — crafted with durability and comfort. Tailored fittings available for every student.</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/corporate.jpg" alt="Corporate Uniforms">
+          <div class="product-content">
+            <h3>Corporate & College Uniforms</h3>
+            <p>Elegant formal wear for offices, institutions and colleges. Custom logo embroidery and bulk order options with precise stitching and fit.</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/saree.jpg" alt="Sarees and Dhotis">
+          <div class="product-content">
+            <h3>Sarees & Dhotis</h3>
+            <p>Exclusive sarees and dhotis available at our Jessore Road branch — combining timeless tradition with refined style and high-quality fabrics.</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/shawl.jpg" alt="Winter Collection">
+          <div class="product-content">
+            <h3>Winter Collection</h3>
+            <p>Premium Kashmiri shawls, sweaters and warm wear — soft, elegant and crafted for the cold months.</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/bag.jpg" alt="Accessories">
+          <div class="product-content">
+            <h3>Accessories</h3>
+            <p>School bags (Skybags and local), belts, ties, socks, badges and other uniform essentials — all available under one roof.</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/raincoat.jpg" alt="Monsoon Essentials">
+          <div class="product-content">
+            <h3>Monsoon Essentials</h3>
+            <p>Raincoats, umbrellas and waterproof uniforms — made for durability and everyday use during the monsoon season.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer-left">
+      <img src="assets/logo.png" alt="logo">
+      <div style="margin-left:10px">
+        <div style="font-weight:700;color:var(--brand-red)">Jagannath Bastralaya</div>
+        <div class="small">Dumdum, Kolkata</div>
+      </div>
+    </div>
+    <div class="small">
+      Call: <a href="tel:+919433050699">9433050699</a> • <a href="tel:+918276063418">8276063418</a>
+    </div>
+  </footer>
+</body>
+</html>
